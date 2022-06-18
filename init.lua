@@ -43,7 +43,7 @@ end
 require('packer').startup(function()
     use 'wbthomason/packer.nvim'
     use 'ellisonleao/gruvbox.nvim'
-    use 'sbdchd/neoformat,'
+    use 'sbdchd/neoformat'
     use { 'nvim-lualine/lualine.nvim',
     requires = { 'kyazdani42/nvim-web-devicons', opt = true }}
     use 'neovim/nvim-lspconfig'
